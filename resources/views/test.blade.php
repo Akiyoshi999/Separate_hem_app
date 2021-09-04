@@ -16,8 +16,7 @@
 
 <body>
   <div id="app">
-    <home-component></home-component>
-    <example-component></example-component>
+    <app-var-component></app-var-component>
 
   </div>
   <!-- Scripts -->

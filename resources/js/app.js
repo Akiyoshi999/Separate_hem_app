@@ -6,6 +6,7 @@
 
 import Vue from 'vue'
 import Vuetify from 'vuetify'
+import AppVar from './components/AppVar'
 import Home from './components/Home'
 
 Vue.use(Vuetify)
@@ -27,6 +28,7 @@ window.Vue = require('vue').default
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default)
 Vue.component('home-component', Home)
+Vue.component('app-var-component', AppVar)
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
